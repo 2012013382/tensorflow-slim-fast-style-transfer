@@ -9,7 +9,7 @@ You need unzip it, and place all images in 'train2014' folder.
 
 All style images are provided by https://github.com/lengstrom/fast-style-transfer
 ## Parameters
-All the parameters are the same with paper <Perceptual Losses for Real-Time Style Transfer and Super-Resolution>
+All the parameters are the same with paper Perceptual Losses for Real-Time Style Transfer and Super-Resolution
   
 STYLE_WEIGHT and CONTENT_WEIGHT are provided by https://github.com/hzy46/fast-neural-style-tensorflow 
 ## Usage
