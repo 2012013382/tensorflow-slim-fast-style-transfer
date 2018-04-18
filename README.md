@@ -36,7 +36,9 @@ python test.py
 ```
 for testing.
 ## Results
-Please waiting...
+![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result1.jpg)
+![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result2.jpg)
+![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result3.jpg)
 ## Reference
 https://github.com/hzy46/fast-neural-style-tensorflow
 
