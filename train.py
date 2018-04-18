@@ -14,6 +14,14 @@ CHANNEL_NUM = 3
 CONTENT_LAYERS = ["vgg_16/conv3/conv3_3"]
 STYLE_LAYERS = ["vgg_16/conv1/conv1_2", "vgg_16/conv2/conv2_2",
                 "vgg_16/conv3/conv3_3", "vgg_16/conv4/conv4_3"]
+#STYLE_WEIGHT and CONTENT_WEIGHT are provided by https://github.com/hzy46/fast-neural-style-tensorflow
+#STYLE_WEIGHT=50.0, CONTENT_WEIGHT=1.0 for 'Candy' style.
+#STYLE_WEIGHT=180.0, CONTENT_WEIGHT=1.0 for 'cubist' style.
+#STYLE_WEIGHT=220.0, CONTENT_WEIGHT=1.0 for 'feathers' style.
+#STYLE_WEIGHT=100.0, CONTENT_WEIGHT=1.0 for 'mosaic' style.
+#STYLE_WEIGHT=250.0, CONTENT_WEIGHT=1.0 for 'scream' style.
+#STYLE_WEIGHT=200.0, CONTENT_WEIGHT=1.0 for 'udnie' style.
+#STYLE_WEIGHT=220.0, CONTENT_WEIGHT=1.0 for 'wave' style.
 STYLE_WEIGHT = 220.0
 CONTENT_WEIGHT = 1.0
 MODEL_PATH = 'model/vgg_16.ckpt'
