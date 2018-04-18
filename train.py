@@ -84,7 +84,7 @@ with tf.Graph().as_default():
                     test_image = data_processing.read_image(TEST_IMAGE_PATH)
                     styled_image = sess.run(squeezed_generated_image, feed_dict={image: test_image})
                     #imsave(join(IMAGE_SAVE_PATH, 'epoch' + str(epoch + 1) + '.jpg'), styled_image)
-                    with open('image/res.jpg', 'wb') as img_s:
+                    with open('training_image/res.jpg', 'wb') as img_s:
                          img_s.write(styled_image)
                 if i % 1000 == 0:   
             	    #save model parameters
