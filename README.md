@@ -6,6 +6,8 @@ Tensorflow(>=1.4)+slim+python(2.7)
 COCO2014 http://images.cocodataset.org/zips/train2014.zip
 
 You need unzip it, and place all images in 'train2014' folder.
+
+All style images are provided by https://github.com/lengstrom/fast-style-transfer
 ## Parameters
 All the parameters are the same with paper <Perceptual Losses for Real-Time Style Transfer and Super-Resolution>
   
