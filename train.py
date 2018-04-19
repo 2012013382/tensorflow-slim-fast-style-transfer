@@ -32,7 +32,7 @@ TEST_IMAGE_PATH = 'test/test.jpg'
 IMAGE_SAVE_PATH = 'image/'
 CHECK_POINT_PATH = 'log/'
 LEARNING_RATE = 1e-3
-EPOCH_NUM = 2
+EPOCH_NUM = 1
 DATA_SIZE = 82783
 with tf.Graph().as_default():
     image = tf.placeholder(tf.float32, [None, IMAGE_SIZE, IMAGE_SIZE, CHANNEL_NUM])
