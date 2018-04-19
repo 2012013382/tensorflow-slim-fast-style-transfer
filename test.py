@@ -30,5 +30,4 @@ with tf.Graph().as_default():
         sess.run(tf.local_variables_initializer())
         restorer.restore(sess, MODEL_PATH)
         styled_image = sess.run(squeezed_generated_image, feed_dict={test_image: test_imgg})
-        styled_imgae = (styled_image + 1.0) * 127.5
         imsave(join(IMAGE_SAVE_PATH, 'test.jpg'), np.squeeze(styled_image))
