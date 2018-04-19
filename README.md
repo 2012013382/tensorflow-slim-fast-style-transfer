@@ -36,7 +36,7 @@ python test.py
 ```
 for testing.
 ## Results
-![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/style.jpg)
+![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/style_image.jpg)
 ![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result1.jpg)
 ![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result2.jpg)
 ![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result3.jpg)
