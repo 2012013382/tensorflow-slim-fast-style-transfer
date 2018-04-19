@@ -8,7 +8,7 @@ import numpy as np
 from os.path import join
 from scipy.misc import imread, imresize, imsave
 TEST_IMAGE_PATH = 'test/test.jpg'
-MODEL_PATH = 'model/trained_model/cubist/model.ckpt-41391'
+MODEL_PATH = 'model/trained_model/cubist/model.ckpt-40696'
 IMAGE_SAVE_PATH = './'
 #Read test image
 test_img = imread(TEST_IMAGE_PATH)
