@@ -17,7 +17,7 @@ Please download slim vgg_16 check point from http://download.tensorflow.org/mode
 
 Then untar it and place it in 'model' folder.
 ```Bash
-sudo ./convert_images_to_list.sh
+sudo ./convert_images_to_list.sh train2014/
 ```
 to generate train images addresses list.
 ```Python
