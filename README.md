@@ -47,6 +47,8 @@ Please place style folders in 'model/trained_model/', and modify MODEL_PATH in t
 ![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result4.jpg)
 
 Results with different steps.
+
+
 ![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/scream_bown_result.jpg)
 ![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/scream_building.jpg)
 ![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/candy_bown.jpg)
