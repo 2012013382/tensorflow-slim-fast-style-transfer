@@ -2,7 +2,7 @@ import tensorflow as tf
 import tensorflow.contrib.slim as slim
 import tensorflow.contrib.slim.nets as nets
 '''
-This file is only include the generator net and loss net(vgg_16)
+This file only contains the generator net and loss net(vgg_16)
 We apply instance normalization and resize conv2d.
 We utilize slim to build network for its simplicity
 Function instance_norm, resize_conv2d and gram are provided by https://github.com/hzy46/fast-neural-style-tensorflow
