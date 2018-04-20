@@ -41,10 +41,8 @@ Model checkpoint I have trained: https://drive.google.com/drive/folders/1akw7PY6
 Please place style folders in 'model/trained_model/', and modify MODEL_PATH in test.py to get your own style images. For example, if you want to get 'scream' style images, please place 'scream' folder in 'model/trained_model/', and change MODEL_PATH in test.py into 'model/trained_model/scream/model.ckpt-20001'. Then place your test.jpg in 'test' folder and python test.py.
 ## Results
 ![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/style_image.jpg)
-![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result1.jpg)
-![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result2.jpg)
-![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result3.jpg)
-![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/result4.jpg)
+![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/good_result.jpg)
+![](https://github.com/2012013382/tensorflow-slim-fast-style-transfer/blob/master/test/good_result2.jpg)
 
 Results with different steps.
 
