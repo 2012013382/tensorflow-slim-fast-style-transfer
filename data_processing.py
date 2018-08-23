@@ -51,6 +51,10 @@ def get_batches(filename, batch_index, batch_size=4):
            img[:, :, 0] = timg -  MEAN_PIXEL[0, 0]
            img[:, :, 1] = timg -  MEAN_PIXEL[0, 1]
            img[:, :, 2] = timg -  MEAN_PIXEL[0, 2]
+        else:
+           img[:, :, 0] = img[:, :, 0] - MEAN_PIXEL[0, 0]
+           img[:, :, 1] = img[:, :, 1] - MEAN_PIXEL[0, 1]
+           img[:, :, 2] = img[:, :, 2] - MEAN_PIXEL[0, 2]
         '''
         cv2.namedWindow('test win', flags=0)
         cv2.imshow('test win', img)
